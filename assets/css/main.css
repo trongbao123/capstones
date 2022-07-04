@@ -1,0 +1,672 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+html, body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #656774;
+  background-color: #f5f9fe;
+}
+
+.phoneBTN-White {
+  padding: 13.5px, 44px;
+  background-color: "transparent";
+  border: 2px solid #e2ebfc;
+  height: 60px;
+  width: 25%;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.phoneBTN-White:hover {
+  background: #9e6d54;
+  border-color: #fff;
+  color: #fff;
+}
+
+.phoneBTN-brown {
+  padding: 13.5px, 44px;
+  background-color: "transparent";
+  border: 2px solid #e2ebfc;
+  height: 60px;
+  width: 25%;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  width: 45%;
+  height: 44px;
+  position: relative;
+  bottom: 150px;
+  left: 100px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  background-color: transparent;
+}
+
+.phoneBTN-brown:hover {
+  background: #9e6d54;
+  border-color: #fff;
+  color: #fff;
+}
+
+.carousel-item button {
+  position: relative;
+  bottom: 120px;
+  background-color: transparent;
+}
+
+.Online__Shop button {
+  position: relative;
+  left: 420px;
+  top: 200px;
+  background-color: transparent;
+}
+
+.Instagram .card button {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 65%;
+  color: #9e6d54;
+  border: #9e6d54 solid 1px;
+}
+
+.Instagram .card button:hover {
+  background: #9e6d54;
+  border-color: #fff;
+  color: #fff;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 188px;
+  z-index: 50;
+  background-color: #f5f9fe;
+}
+
+header .call__Us {
+  padding-top: 45px;
+}
+
+header .call__Us .phone {
+  padding-top: 50px;
+}
+
+header .call__Us .cart {
+  padding-top: 50px;
+}
+
+header #top_number {
+  font-size: 15px;
+  font-weight: 400;
+  color: #9e6d54;
+}
+
+header .call__Us i {
+  padding-right: 10px;
+  border: solid 1px #9e6d54;
+  border-radius: 30px;
+  height: 39px;
+  line-height: 36px;
+  font-size: 15px;
+  padding-left: 10px;
+  color: #9e6d54;
+}
+
+header .call__Us span {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #656774;
+}
+
+header .call__Us .logo img {
+  width: 100%;
+  height: 110px;
+}
+
+header .call__Us .cart {
+  padding-left: 190px;
+}
+
+.top__banner {
+  background-color: #78b8b7;
+  padding-top: 16px;
+  margin-top: 30px;
+  height: 90px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 180px;
+}
+
+.top__banner .nav-item {
+  color: #f5f9fe;
+  padding: 10px;
+}
+
+.top__banner .nav-item a {
+  color: #f5f9fe;
+  border-right: 2px solid #e2ebfc;
+}
+
+.top__banner .nav-item::after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 3px;
+  background-color: #e2ebfc;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.top__banner .nav-item:hover {
+  color: #2a73dd;
+}
+
+.top__banner .nav-item:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.end {
+  height: 150px;
+  text-align: center;
+  background-color: #78b8b7;
+  font-size: 35px;
+  padding-top: 44px;
+  margin-top: 150px;
+}
+
+.end .icon i {
+  padding: 8px;
+  border: solid white;
+  color: white;
+}
+
+.end .icon i:hover {
+  border: #9e6d54 solid;
+  color: #9e6d54;
+}
+
+.end .bottom__footer {
+  background-color: #f0f0ed;
+  margin-top: 44px;
+  font-size: 15px;
+}
+
+.carousel #portCaptions .carousel-caption img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.carousel .carousel-item > img {
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+}
+
+.carousel #portCaptions li {
+  width: 13px;
+  height: 13px;
+  border-radius: 15px;
+}
+
+.carousel .carousel-item h5 {
+  position: relative;
+  bottom: 190px;
+  font-size: 80px;
+  font-weight: 400;
+}
+
+.carousel .carousel-item p {
+  position: relative;
+  bottom: 190px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: serif;
+}
+
+.carousel .carousel-item .icon {
+  position: relative;
+  bottom: 190px;
+}
+
+.carousel .carousel-item .icon i {
+  color: #e09654;
+  font-size: 29px;
+  font-weight: 600;
+}
+
+.Studio {
+  background-color: #e2ebfc;
+  height: 500px;
+}
+
+.Studio h3 {
+  font-family: fantasy;
+  font-size: 20px;
+  font-weight: 400;
+  color: #e09654;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.Studio .line__left i {
+  width: 30%;
+  height: 2px;
+  background-color: #e09654;
+  position: relative;
+  top: 92px;
+  left: 150px;
+}
+
+.Studio .line__right i {
+  width: 30%;
+  height: 2px;
+  background-color: #e09654;
+  position: relative;
+  top: -30px;
+  left: 628px;
+}
+
+.Studio .icon {
+  text-align: center;
+  color: #e09654;
+  position: relative;
+  bottom: 20px;
+}
+
+.Studio .card .card__body img {
+  width: 100%;
+  height: 225px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+}
+
+.Studio .col-4 p {
+  position: relative;
+  bottom: 150px;
+  left: 150px;
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+}
+
+.Studio .card__body:hover {
+  background-color: #656774;
+}
+
+.Welcome__There {
+  height: 800px;
+}
+
+.Welcome__There h3 {
+  font-family: fantasy;
+  font-size: 20px;
+  font-weight: 400;
+  color: #e09654;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.Welcome__There h1 {
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 400;
+  color: #e09654;
+  text-align: center;
+}
+
+.Welcome__There .line__left i {
+  width: 30%;
+  height: 2px;
+  background-color: #e09654;
+  position: relative;
+  top: 92px;
+  left: 150px;
+}
+
+.Welcome__There .line__right i {
+  width: 30%;
+  height: 2px;
+  background-color: #e09654;
+  position: relative;
+  top: -30px;
+  left: 628px;
+}
+
+.Welcome__There .icon {
+  text-align: center;
+  color: #e09654;
+  position: relative;
+  bottom: 20px;
+}
+
+.Welcome__There .carousel-inner {
+  height: 525px;
+}
+
+.Welcome__There .carousel-inner .carousel-item img {
+  background-size: cover;
+  background-position: center;
+}
+
+.Welcome__There p {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #e09654;
+}
+
+.Online__Shop {
+  background-image: url(../../../assets/img/home1_slide1.webp);
+  height: 850px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.Online__Shop .online {
+  padding-top: 60px;
+}
+
+.Online__Shop h3 {
+  font-family: fantasy;
+  font-size: 20px;
+  font-weight: 400;
+  color: #f5f9fe;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.Online__Shop h1 {
+  font-family: fantasy;
+  font-size: 70px;
+  font-weight: 400;
+  color: #f5f9fe;
+  text-align: center;
+}
+
+.Online__Shop .line__left i {
+  width: 30%;
+  height: 2px;
+  background-color: #f5f9fe;
+  position: relative;
+  top: 92px;
+  left: 150px;
+}
+
+.Online__Shop .line__right i {
+  width: 30%;
+  height: 2px;
+  background-color: #f5f9fe;
+  position: relative;
+  top: -30px;
+  left: 628px;
+}
+
+.Online__Shop .icon {
+  text-align: center;
+  color: #f5f9fe;
+  position: relative;
+  bottom: 20px;
+}
+
+.Instagram {
+  background-color: #f0f0ee;
+  height: 600px;
+  margin-top: -66px;
+}
+
+.Instagram h3 {
+  font-family: fantasy;
+  font-size: 20px;
+  font-weight: 400;
+  color: #e09654;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.Instagram .line__left i {
+  width: 30%;
+  height: 2px;
+  background-color: #e09654;
+  position: relative;
+  top: 92px;
+  left: 150px;
+}
+
+.Instagram .line__right i {
+  width: 30%;
+  height: 2px;
+  background-color: #e09654;
+  position: relative;
+  top: -30px;
+  left: 628px;
+}
+
+.Instagram .icon {
+  text-align: center;
+  color: #e09654;
+  position: relative;
+  bottom: 20px;
+}
+
+.Instagram .card {
+  text-align: center;
+}
+
+.Instagram .card h5 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #e09654;
+  font-family: ui-serif;
+}
+
+.Instagram .card p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #e09654;
+  font-family: ui-serif;
+}
+
+.Instagram .card-body a {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 65%;
+  line-height: 30px;
+  color: #9e6d54;
+  border: #9e6d54 solid 1px;
+}
+
+.Instagram .card-body a:hover {
+  background: #9e6d54;
+  border-color: #fff;
+  color: #fff;
+}
+
+.carousel__header .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.carousel__header .header .navbar-brand {
+  font-size: 40px;
+  font-weight: 700;
+  color: #121212;
+}
+
+.carousel__header .header .nav-item {
+  padding: 20px;
+}
+
+.carousel__header .header .nav-item .nav-link {
+  font-size: 15px;
+  font-weight: 600;
+  color: #121212;
+}
+
+.carousel__header .header .icon i {
+  font-size: 20px;
+  font-weight: 600;
+  color: #121212;
+}
+
+.carousel__header .carousel .carousel-item img {
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 800px;
+}
+
+.carousel__header .carousel .carousel-item img:hover:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.carousel__header .carousel .carousel-control-prev {
+  height: 50px;
+  width: 4%;
+  position: absolute;
+  top: 350px;
+  left: 150px;
+  background-color: #121212;
+}
+
+.carousel__header .carousel .carousel-control-next {
+  height: 50px;
+  width: 4%;
+  position: absolute;
+  top: 350px;
+  right: 200px;
+  background-color: #121212;
+}
+
+.top__catories {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 600px;
+  margin-top: 30px;
+}
+
+.top__catories .catories_mid {
+  background-color: #f0f0ed;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.top__catories .catories_mid .card-text {
+  text-align: center;
+  font-size: 25px;
+  font-family: serif;
+  font-weight: 700;
+  color: black;
+}
+
+.top__catories .catories_mid img:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.feature {
+  height: 800px;
+}
+
+.feature h1 {
+  text-align: center;
+  font-size: 44px;
+  font-weight: 600;
+  color: #121212;
+  padding-bottom: 25px;
+}
+
+.feature .card-body {
+  background-color: #f0f0ed;
+}
+
+.feature .card-body h5 {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #9e6d54;
+}
+
+.feature .card__mid {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 38px;
+}
+
+.feature .card__mid p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #9e6d54;
+}
+
+.feature .card__mid a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #9e6d54;
+}
+
+.feature .card__bot img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 225px;
+}
+
+.feature .card:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.home {
+  position: absolute;
+  top: 130px;
+  left: 0;
+  text-align: center;
+  background-color: grey;
+  padding: 14px;
+  font-size: 15px;
+  color: #f0f0ed;
+}
+/*# sourceMappingURL=main.css.map */

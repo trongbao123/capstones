@@ -1,0 +1,51 @@
+.carousel {
+    #portCaptions .carousel-caption {
+        img {
+            width: 100%;
+            border-radius: 50%;
+        }
+    }
+
+    .carousel-item>img {
+        height: $pd-2+$pd-2+$pd-8;
+        object-fit: cover;
+        background-position: center;
+    }
+
+
+    #portCaptions li {
+        width: $bd-2+5;
+        height: $bd-2+5;
+        border-radius: 15px;
+    }
+
+    .carousel-item {
+        h5 {
+            position: relative;
+            bottom: $pd-8+40;
+            font-size: $mg-3+10;
+            font-weight: $fw-1;
+        }
+
+        p {
+            position: relative;
+            bottom: $pd-8+40;
+            font-size: $pd-1;
+            font-weight: $fw-1;
+            font-family: serif;
+        }
+
+        .icon {
+            position: relative;
+            bottom: $pd-8+40;
+
+            i {
+                color: $color-yellow-2;
+                font-size: $fs-1+15;
+                font-weight: $fw-2;
+            }
+        }
+
+     
+    }
+}

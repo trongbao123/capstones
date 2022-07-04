@@ -1,0 +1,70 @@
+.carousel__header {
+    .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        margin-top: $mg-1;
+       
+
+        .navbar-brand {
+            @include styleText($mg-1+10, $fw-3, $color-dark-2);
+        }
+
+        .nav-item {
+            padding: $fs-7;
+
+            .nav-link {
+                @include styleText($bd-2+7, $fw-2, $color-dark-2);
+            }
+
+        }
+
+        .icon {
+            i {
+                @include styleText($fs-7, $fw-2, $color-dark-2);
+            }
+
+        }
+    }
+
+    .carousel {
+        .carousel-item {
+            img {
+                background-position: center;
+                object-fit: cover;
+                width: 100%;
+                height: 800px;
+
+                &:hover{
+                    &:hover{
+                        transform: scale(1.2);
+                        transition: all .5s;
+                    }
+                }
+
+            }
+        }
+
+        .carousel-control-prev {
+            height: 50px;
+            width: 4%;
+            position: absolute;
+            top: 350px;
+            left: 150px;
+            background-color: $color-dark-2;
+
+        
+        }
+
+        .carousel-control-next {
+            height: 50px;
+            width: 4%;
+            position: absolute;
+            top: 350px;
+            right: 200px;
+            background-color: $color-dark-2;
+        }
+    }
+}
